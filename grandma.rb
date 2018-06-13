@@ -1,5 +1,5 @@
 def speak_to_grandma(speak)
-  speak = gets.chomp
+  
   if speak != speak.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   elsif speak == speak.upcase
