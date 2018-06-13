@@ -1,3 +1,16 @@
+speak_to_grandma(speak)
+  speak = gets.chomp
+  if speak != speak.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif speak == speak.upcase
+    puts "NO, NOT SINCE 1938!"
+  else speak ==  "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+end
+
+
+speak_to_grandma(speak)
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
