@@ -1,13 +1,15 @@
-speak_to_grandma(speak)
-  gran = #{speak}
-  if gran != speak.upcase
+def speak_to_grandma(speak)
+  speak = gets.chomp
+  if speak != speak.upcase
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif gran == speak.upcase
+  elsif speak == speak.upcase
     puts "NO, NOT SINCE 1938!"
-  else gran ==  "I LOVE YOU GRANDMA!"
+  else speak ==  "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
 end
+end 
 
+speak_to_grandma(speak)
 
 speak_to_grandma(speak)
 
