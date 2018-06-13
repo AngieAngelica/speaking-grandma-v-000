@@ -7,6 +7,3 @@ def speak_to_grandma(speak)
     return "NO, NOT SINCE 1938!"
   end
 end 
-
-speak_to_grandma(speak)
-
