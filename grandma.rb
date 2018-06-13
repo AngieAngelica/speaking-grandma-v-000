@@ -1,10 +1,10 @@
 speak_to_grandma(speak)
-  speak = #{speak}
-  if speak != speak.upcase
+  gran = #{speak}
+  if gran != speak.upcase
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif speak == speak.upcase
+  elsif gran == speak.upcase
     puts "NO, NOT SINCE 1938!"
-  else speak ==  "I LOVE YOU GRANDMA!"
+  else gran ==  "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
 end
 
